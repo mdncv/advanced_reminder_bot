@@ -1,4 +1,8 @@
+from DB import init_db
+
+
 def run():
+    init_db()
     while True:
         pass
 
